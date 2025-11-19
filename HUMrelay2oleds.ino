@@ -18,8 +18,8 @@ SSD1306Wire displaySSD(0x3C, OLED_SDA, OLED_SCL); // 0.96" SSD1306
 SH1106Wire  displaySH (0x3D, OLED_SDA, OLED_SCL); // 1.3" SH1106
 
 // WiFi credentials
-const char* ssid = "SIGINT_KeyHole7";
-const char* password = "M781166s";
+const char* ssid = "YOUR_SSID";
+const char* password = "YOUR_pw";
 
 WiFiServer server(80);
 bool relayState = false;
